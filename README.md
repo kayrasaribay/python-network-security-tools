@@ -44,18 +44,18 @@ python3 packet_listener/packet_listener.py -i eth0
 pip install -r requirements.txt
 ```
 
-Root/administrator privileges are required for raw packet capture.
+Requires Python 3.10+. Root privileges are required for raw packet capture.
 
 ---
 
 ## Related
 
-- [mac-changer](https://github.com/kayrasaribay/mac-changer) — MAC address
-  changer built with Scapy (separate repository)
+- [MAC_changer](https://github.com/kayrasaribay/MAC_changer) — MAC address
+  changer for Linux network interfaces (separate repository)
 
 ---
 
 ## Attribution
 
-Built while following an ethical hacking course. Tools were tested exclusively
+Tools were tested exclusively
 in an isolated virtual lab (Kali Linux VM + Metasploitable).
